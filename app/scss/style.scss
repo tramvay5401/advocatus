@@ -76,11 +76,11 @@
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position:  center;
 }
 .header__img-content {
   display: flex;
-  margin-left: 475px;
+  
 }
 .header__img-title {
   position: relative;
@@ -476,7 +476,7 @@
 .product__content-tabs-wrapper {
   margin-top: 35px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   .tabs {
     margin-right: 30px;
     max-width: 570px;
